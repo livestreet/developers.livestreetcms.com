@@ -124,7 +124,7 @@
      * Тулбар
      * Добавление кнопок в тулбар
      *}
-    {add_block group='toolbar' name='components/toolbar-scrollup/toolbar.scrollup.tpl' priority=-100}
+    {add_block group='toolbar' name='component@toolbar-scrollup.toolbar.scrollup' priority=-100}
 
     {* Подключение тулбара *}
     {component 'toolbar'}

@@ -112,8 +112,8 @@ $config['head']['default']['js'] = array(
     //"___path.skin.web___/components/ls-vendor/html5shiv.js" => array('browser' => 'lt IE 9'),
     //"___path.skin.web___/components/ls-vendor/jquery.placeholder.min.js" => array('browser' => 'lt IE 9'),
 
-    "___path.skin.web___/components/ls-vendor/jquery-1.9.1.min.js",
-    "___path.skin.web___/components/ls-vendor/jquery-ui/js/jquery-ui-1.10.2.custom.min.js",
+    "___path.application.web___/frontend/components/ls-vendor/jquery-1.9.1.min.js",
+    "___path.application.web___/frontend/components/ls-vendor/jquery-ui/js/jquery-ui-1.10.2.custom.min.js",
 
     "//yandex.st/share/share.js" => array('merge' => false),
 );
