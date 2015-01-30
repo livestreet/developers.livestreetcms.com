@@ -1,0 +1,19 @@
+<?php
+/**
+ * Настройки для локального сервера.
+ * Для использования - переименовать файл в config.local.php
+ * Именно в этом файле необходимо переопределять все настройки конфига
+ */
+
+/**
+ * Настройка базы данных
+ */
+$config['db']['params']['host'] = 'localhost';
+$config['db']['params']['port'] = '3306';
+$config['db']['params']['user'] = 'root';
+$config['db']['params']['pass'] = '';
+$config['db']['params']['type']   = 'mysqli';
+$config['db']['params']['dbname'] = 'docs';
+$config['db']['table']['prefix'] = 'prefix_';
+
+return $config;

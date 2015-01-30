@@ -1,0 +1,8 @@
+/application/config/config.local.php
+/application/config/config.testing.php
+/application/logs/*
+/application/plugins/*
+/application/tmp/*
+/uploads/*
+/.idea/
+.DS_Store
