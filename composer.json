@@ -1,0 +1,17 @@
+{
+  "name": "livestreet/developers.livestreetcms.com",
+  "type": "project",
+  "require": {
+    "erusev/parsedown": "~1.0"
+  },
+  "require-dev": {
+
+  },
+  "autoload": {
+
+  },
+  "scripts": {
+
+  },
+  "minimum-stability": "dev"
+}

@@ -3,6 +3,9 @@
 /application/logs/*
 /application/plugins/*
 /application/tmp/*
+/resources/docs/*
+/vendor
 /uploads/*
 /.idea/
+composer.phar
 .DS_Store
