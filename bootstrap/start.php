@@ -28,6 +28,11 @@
  */
 
 /**
+ * Подключаем автозагрузку композера
+ */
+include_once(dirname(__DIR__) . '/vendor/autoload.php');
+
+/**
  * Формируем путь до фреймворка
  */
 $sPathToFramework = dirname(__DIR__) . '/framework/';

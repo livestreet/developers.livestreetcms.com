@@ -86,6 +86,7 @@ $config['router']['uri'] = array(
 // Распределение action
 $config['router']['page']['error'] = 'ActionError';
 $config['router']['page']['index'] = 'ActionIndex';
+$config['router']['page']['docs'] = 'ActionDocs';
 // Глобальные настройки роутинга
 $config['router']['config']['default']['action'] = 'index';
 $config['router']['config']['default']['event'] = null;
@@ -142,5 +143,14 @@ date_default_timezone_set('Europe/Moscow'); // See http://php.net/manual/en/time
  * Добавляем к настройках из /framework/config/jevix.php
  */
 $config['jevix'] = array_merge_recursive((array)Config::Get('jevix'), require(dirname(__FILE__) . '/jevix.php'));
+
+
+/**
+ * App config
+ */
+$config['app']['allow_versions']=array('master');
+$config['app']['default_docs_version']='master';
+
+
 
 return $config;
