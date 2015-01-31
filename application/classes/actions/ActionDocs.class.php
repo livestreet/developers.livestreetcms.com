@@ -72,6 +72,8 @@ class ActionDocs extends Action
         $this->Viewer_Assign('docsIndex',
             $this->Main_ReadDocsContent($sPagePath . 'documentation.md', $sRootUrl, $sVersion));
         $this->Viewer_Assign('docsCurrentVersion', $sVersion);
+        $this->Viewer_Assign('docsVersions', Config::Get('app.allow_versions'));
+        $this->Viewer_Assign('docsType', $sType);
         /**
          * Устанавливаем шаблон вывода
          */
